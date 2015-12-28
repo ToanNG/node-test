@@ -1,5 +1,5 @@
 var assert = require('assert');
-var sum = require('../solutions/question-1').sum;
+var sum = require('../solutions/question-1');
 
 describe('Question 1', function() {
   describe('sum', function () {
