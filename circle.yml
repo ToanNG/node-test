@@ -1,3 +1,4 @@
 test:
   post:
+    - chmod +x ./test.sh
     - ./test.sh
