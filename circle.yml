@@ -4,6 +4,7 @@ test:
     - ./test.sh
 deployment:
   staging:
+    branch: master
     commands:
       - chmod +x ./webhook.sh
       - ./webhook.sh
