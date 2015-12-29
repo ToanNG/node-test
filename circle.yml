@@ -3,7 +3,7 @@ test:
     - chmod +x ./test.sh
     - ./test.sh
 deployment:
-  webhook:
+  staging:
     commands:
       - chmod +x ./webhook.sh
       - ./webhook.sh
