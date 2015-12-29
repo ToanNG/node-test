@@ -2,3 +2,8 @@ test:
   post:
     - chmod +x ./test.sh
     - ./test.sh
+deployment:
+  webhook:
+    commands:
+      - chmod +x ./webhook.sh
+      - ./webhook.sh
