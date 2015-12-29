@@ -2,9 +2,12 @@ test:
   post:
     - chmod +x ./test.sh
     - ./test.sh
-deployment:
-  staging:
-    branch: master
-    commands:
-      - chmod +x ./webhook.sh
-      - ./webhook.sh
+notify:
+  webhooks:
+   - url: http://toan.ngrok.com/api/story/5678354d916b7ca71d15e06e/complete?access_token=HMu5Vjsjldqrorq3oC2hVSizmlxuaqjhjZOSApljRfwpZubh4tK4ttojR4hB5aj1rWQ9KkR1Rsjo5BRysdFkOKbWFXpcSbKId9HpnTreQyQnJUe2wXb0Tkxj3jDtvL7kpvRGk54Q34DVCfUSZKi7ZlyE70vcsN75fQF8ahYUNexdPr1vgV5fud443rLKKn7Ljr8fhQzq9mJFhW3kMSBfAgZWHdd60zQIViDxUe3Z9SEziwIJKLypXXWrfGhubf4B
+# deployment:
+#   staging:
+#     branch: master
+#     commands:
+#       - chmod +x ./webhook.sh
+#       - ./webhook.sh
