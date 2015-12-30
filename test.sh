@@ -1,2 +1,2 @@
-git clone git@github.com:ToanNG/sample-test.git solutions
+git clone $TARGET_REPO solutions
 mocha ./test
