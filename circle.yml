@@ -4,7 +4,7 @@ test:
     - ./test.sh
 notify:
   webhooks:
-   - url: http://toan.ngrok.com/api/story/<%= ENV['STORY_ID'] %>/complete?access_token=HMu5Vjsjldqrorq3oC2hVSizmlxuaqjhjZOSApljRfwpZubh4tK4ttojR4hB5aj1rWQ9KkR1Rsjo5BRysdFkOKbWFXpcSbKId9HpnTreQyQnJUe2wXb0Tkxj3jDtvL7kpvRGk54Q34DVCfUSZKi7ZlyE70vcsN75fQF8ahYUNexdPr1vgV5fud443rLKKn7Ljr8fhQzq9mJFhW3kMSBfAgZWHdd60zQIViDxUe3Z9SEziwIJKLypXXWrfGhubf4B
+   - url: http://toan.ngrok.com/hook/circle/complete-story
 # deployment:
 #   staging:
 #     branch: master
